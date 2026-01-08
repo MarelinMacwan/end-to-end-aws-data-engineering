@@ -51,9 +51,9 @@ def main():
 
     logging.info("Writing transformed data")
 
-    dim_customers.to_csv(f"{OUTPUT_PATH}/dim_customers.csv", index=False)
-    dim_products.to_csv(f"{OUTPUT_PATH}/dim_products.csv", index=False)
-    fact_orders.to_csv(f"{OUTPUT_PATH}/fact_orders.csv", index=False)
+    dim_customers.to_csv(f"C:/Users/marel/Downloads/end-to-end-aws-data-engineering/analytics/transformed-data/dim_customers.csv", index=False)
+    dim_products.to_csv(f"C:/Users/marel/Downloads/end-to-end-aws-data-engineering/analytics/transformed-data/dim_products.csv", index=False)
+    fact_orders.to_csv(f"C:/Users/marel/Downloads/end-to-end-aws-data-engineering/analytics/transformed-data/fact_orders.csv", index=False)
 
     logging.info("Transformation completed successfully")
 
