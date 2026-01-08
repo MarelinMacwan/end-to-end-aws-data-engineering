@@ -4,7 +4,7 @@ import boto3
 import pandas as pd
 
 # ---------- CONFIG ----------
-LOCAL_DATA_PATH = "../ecommerce-data"
+LOCAL_DATA_PATH = "C:/Users/marel/OneDrive/SUMMER 2023/MACHINE LEARNING/PROJECT/E-Commerce Data Engineering Project/Brazilian E-Commerce Public Dataset by Olist/ecommerce-data"
 S3_BUCKET = "ecommerce-data-lake-aws"
 S3_PREFIX = "raw"
 
