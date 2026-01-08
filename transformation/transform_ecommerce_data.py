@@ -3,7 +3,7 @@ import logging
 import pandas as pd
 
 # ---------------- CONFIG ---------------- #
-RAW_DATA_PATH = "../ecommerce-data"
+RAW_DATA_PATH = "C:/Users/marel/OneDrive/SUMMER 2023/MACHINE LEARNING/PROJECT/E-Commerce Data Engineering Project/Brazilian E-Commerce Public Dataset by Olist/ecommerce-data"
 OUTPUT_PATH = "../transformed-data"
 
 os.makedirs(OUTPUT_PATH, exist_ok=True)
