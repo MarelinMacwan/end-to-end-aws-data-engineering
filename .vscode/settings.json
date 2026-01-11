@@ -1,0 +1,76 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5439,
+            "driver": "PostgreSQL",
+            "name": "ecommerce-workgroup.xxxxx.redshift-serverless.amazonaws.com",
+            "database": "dev",
+            "username": "admin"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "ecommerce-workgroup.xxxxx.redshift-serverless.amazonaws.com",
+            "port": 5439,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "database": "dev",
+            "username": "admin",
+            "name": "sql"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "ecommerce-workgroup.340752822052.us-east-2.redshift-serverless.amazonaws.com:5439/dev",
+            "port": 5439,
+            "driver": "PostgreSQL",
+            "name": "sql",
+            "database": "dve",
+            "username": "admin"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "ecommerce-workgroup.340752822052.us-east-2.redshift-serverless.amazonaws.com:5439/dev",
+            "port": 5439,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "marelin",
+            "database": "dev",
+            "username": "admin"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "ecommerce-workgroup.340752822052.us-east-2.redshift-serverless.amazonaws.com",
+            "port": 5439,
+            "driver": "PostgreSQL",
+            "name": "marelin",
+            "database": "dev",
+            "username": "admin"
+        }
+    ]
+}
